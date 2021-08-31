@@ -16,9 +16,16 @@ QnA::
 
     4. What is the h1 tag used for? How many times should I use it on a page?
         <h1> defines the main header of the page. You should only use <h1> once per page.
-        
+
     5. Name two tags that have required attributes
+        <a> and <img>.
+
     6. What do we put in the head of our HTML document? 
+        <!DOCTYPE html>; this tells the browser how to interpret the document (as an html file)
+        any fonts or charsets we are including, using the <meta> tag.
+        Links to the CSS and any javascript associated with the web site, through the <link rel="stylesheet" type="js or css" href="style.css or node.js">
+        Any libraries should also go in the head.
+
     7. What is an id? 
     8. What elements can I add an id to? 
     9. How many times can I use the same id on a page? 
