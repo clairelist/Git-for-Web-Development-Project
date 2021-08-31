@@ -27,14 +27,31 @@ QnA::
         Any libraries should also go in the head.
 
     7. What is an id? 
+        an id is an attribute used to name a specific element so we can reference it later in the stylesheet (similar to a class)
+
     8. What elements can I add an id to? 
+        Any element.
+
     9. How many times can I use the same id on a page? 
+        Once per page.
+
     10. What is a class? 
+        A way to identify specific elements so we can apply different properties to them with CSS.
+
     11. What elements can I add a class to? 
+        Any element.
     12. How many times can I use the same class on a page? 
+        As many times as you like, provided you specify within the CSS file what specifically you are trying to change.
+
     13. How do I get my link to open in a new tab?
+        use the "_target=blank" attribute.
+
     14. What is the alt attribute in the image tag used for? 
+            To give screenreaders text to read to the user.
+
     15. How do I reference an id?
+            <element id="idName">
+
     16. What is the difference between a section and a div
     17. What is CSS used for? 
     18. How to we select an element? Example - every h2 on the page
