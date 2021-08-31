@@ -120,7 +120,27 @@ QnA::
             Every 20 minutes, OR after an important milestone is reached in the work YOu are doing.
 
     36. What is the command we would use to push our repo up to github? 
+        git push
+
     37. Walk me through Lambda's git flow. 
+        First, fork the repo we will be working on. Then, clone using the SSH method by clicking 
+        clone or download on github. Once copied to your clipboard, open your CLI (git bash in my case).
+        Change directory using the cd command to navigate to where you want to clone your repository.
+        Next, use the git clone <linkToRepo> command to clone repo into the directory you are in.
+        Then cd into the repo itself by cd <repoName> command.
+        Next, branch your repo by using git checkout -b 'firstname-lastname' command.
+        Now you can actually work on the repo and start getting it done.
+            NEXT, the first time you commit and push your repo, use the following commands:
+            git add .; git commit -m 'message'; git push -u origin claire-list; (semicolons are interpreted
+            by the CLI as 'enter').
+                Each push thereafter can be done with::
+                git add .; git commit -m 'message preferably a new one'; git push;
+                --because the user has already been identified.
+        ONCE the work is done, you can submit a pull request. 
+        Return to your forked repo on github and click on branch:master and select your name!
+        Finally, click 'new pull request' to make a PR on your branch.
+            Once you get to the PR page, make sure the dropdown button has your forked repo instead of the original.
+                FINALLY FINALLY, click create pull request.
 
 Stretch Questions
 
