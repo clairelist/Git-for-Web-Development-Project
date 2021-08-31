@@ -40,6 +40,7 @@ QnA::
 
     11. What elements can I add a class to? 
         Any element.
+
     12. How many times can I use the same class on a page? 
         As many times as you like, provided you specify within the CSS file what specifically you are trying to change.
 
@@ -50,7 +51,7 @@ QnA::
             To give screenreaders text to read to the user.
 
     15. How do I reference an id?
-            <element id="idName">
+            <element id="idName"> or by #idName
 
     16. What is the difference between a section and a div?
 
