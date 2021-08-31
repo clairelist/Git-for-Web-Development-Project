@@ -5,9 +5,18 @@ https://codepen.io/claire2501/pen/ExXKjvp?editors=1100
 QnA::
 
  1. What is Semantic HTML? 
+        HTML that is self-descriptive; ie tags that describe exactly what they do.
+
     2. What is HTML used for? 
+        HTML is used to markup content on a web page.
+
     3. What is an attribute and where do we put it? 
+        An attribute is a part of an HTML element which controls and modifies the element's behaviour. For example
+        the 'src' attribute of the <img> tag will tell the browser where to find the image (either a URL or a local file).
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+        <h1> defines the main header of the page. You should only use <h1> once per page.
+        
     5. Name two tags that have required attributes
     6. What do we put in the head of our HTML document? 
     7. What is an id? 
